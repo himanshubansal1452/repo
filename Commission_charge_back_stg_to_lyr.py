@@ -4,6 +4,7 @@ from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.job import Job
+from awsglue.job import *
 
 args = getResolvedOptions(sys.argv, ["JOB_NAME"])
 sc = SparkContext()
